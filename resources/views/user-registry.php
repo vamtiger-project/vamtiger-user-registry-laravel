@@ -51,7 +51,7 @@
             data-element-query-support
             data-web-component-support
             data-fetch-support
-            data-load="https://cdn.jsdelivr.net/npm/vamtiger-user-registry/build/vamtiger-user-registry.js"
+            data-load="https://cdn.jsdelivr.net/npm/vamtiger-user-registry@latest/build/vamtiger-user-registry.js"
         ></script>
     </head>
 

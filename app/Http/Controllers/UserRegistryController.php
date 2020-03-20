@@ -92,7 +92,7 @@ class UserRegistryController extends Controller
     }
 
     public function getUsers() {
-        $users = UserRegistry::paginate(10);
+        $users = UserRegistry::paginate(100);
         $responseData = self::getResponseData(
             self::response['successful'],
             self::responseMessages['retrievedUsers'],
